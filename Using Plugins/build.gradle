@@ -1,0 +1,11 @@
+plugins {
+
+    id 'java'
+
+}
+
+task 'hello' {
+    doLast {
+        println 'hello from gradle!'
+    }
+}
