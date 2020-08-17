@@ -1,6 +1,6 @@
 # Gradle Plugins
 
-At this point, I had created my first task with gradle, I ran the task and also issued the build command to build my file. I then took a look at the concept of _Plugins_. Gradle allows usage of plugins to define custom behaviour to our build system and provide support for external entities. In this case, I made use of the _java_ plugin.
+At this point, I had created my <a href="https://github.com/OlaoreFouad/gradle-build-tool-fundamentals/tree/master/First%20Steps%20with%20Gradle">first task</a> with gradle, I ran the task and also issued the build command to build my file. I then took a look at the concept of _Plugins_. Gradle allows usage of plugins to define custom behaviour to our build system and provide support for external entities. In this case, I made use of the _java_ plugin.
 
 ## Using the Java Plugin
 
