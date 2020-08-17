@@ -6,7 +6,7 @@ The term **Building** entails a lot of processes executed in sequence, processes
 
 ## Okay, now I understand what Gradle does.
 
-Using Gradle, we have something called **tasks**. Tasks are executable set of statement that are supposed to do something. They are like functions/procedures in regular programming. Gradle comes with a number of tasks like _build, clean, assemble, tasks, check, test_ and among others. All these tasks have a particular function that is carried out. These tasks can be written using two DSLs (domain specific languages) which allow developers to write tasks in whatever language they want.
+Using Gradle, we have something called **tasks**. Tasks are executable set of statements that are supposed to do something. They are like functions/procedures in regular programming. Gradle comes with a number of tasks like _build, clean, assemble, tasks, check, test_ and among others. All these tasks have a particular function that is carried out. These tasks can be written using two DSLs (domain specific languages) which allow developers to write tasks in whatever language they want.
 
 **Defining a Task**
 
