@@ -14,3 +14,28 @@ _During a build, it's a process, and it's made up of three phases namely:_
 - Execution Phase: In this phase, the tasks are actually executed.
 
 In a task, we have _doFirst_ and _doLast_. The contents of the _doFirst_ closure is run first, and the contents of the _doLast_ is run last.
+
+### Task Dependecies
+
+_Tasks could depend on other tasks, If a **task a** depends on **task b**, it means **task b** has to run first before **task a** can run. In our task block using the `dependsOn` keyword allows us specify the task that the parent task is dependent on. this signifies to the current task to run the task it depends on before it's contents are run. Take a look!_
+
+```
+    task hello {
+        doLast {
+            println 'hello'
+        }
+    }
+
+    task world {
+
+        dependsOn hello // run hello before you run this task
+
+        doLast {
+            println ', world'
+        }
+    }
+```
+
+Run `gradle world` and the task hello runs before world, and we get this result.
+
+<img src="./running_dependent_tasks.PNG">
