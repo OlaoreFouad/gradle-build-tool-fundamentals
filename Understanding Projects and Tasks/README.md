@@ -39,3 +39,13 @@ _Tasks could depend on other tasks, If a **task a** depends on **task b**, it me
 Run `gradle world` and the task hello runs before world, and we get this result.
 
 <img src="./running_dependent_tasks.PNG">
+
+## Adding Plugins
+
+_We can add plugins using their fully qualified names, we use the `id` and `version` keywords to specify the name and the version of the plugin to be applied. An example can be seen below.
+
+```
+    plugins {
+        id 'org.flywaydb.flyway' version '6.3.2'
+    }
+```
